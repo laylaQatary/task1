@@ -18,3 +18,28 @@ while(True):
             result= div()
             print(result)
         
+def add():
+    num1=int(input('enter number1:'))
+    num2=int(input('enter number1:'))
+    result= num1+num2
+    return result
+    
+def sub():
+    num1=int(input('enter number1:'))
+    num2=int(input('enter number1:'))
+    result= num1-num2
+    return result
+    
+    
+def mult():
+    num1=int(input('enter number1:'))
+    num2=int(input('enter number1:'))
+    result= num1*num2
+    return result
+    
+    
+def div():
+        num1=int(input('enter number1:'))
+        num2=int(input('enter number1:'))
+        result= num1/num2
+        return result    
